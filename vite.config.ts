@@ -6,5 +6,5 @@ import { nodePolyfills } from 'vite-plugin-node-polyfills';
 
 export default defineConfig({
   plugins: [react(), nodePolyfills()],
-  base: '/tg-frontend-demo/my-twa1/', // 设置为仓库路径
+  base: '/my-twa1/',
 });
