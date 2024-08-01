@@ -3,6 +3,7 @@ import { TonConnectButton } from '@tonconnect/ui-react';
 import { useTonConnect } from './hooks/useTonConnect';
 import { useCounterContract } from './hooks/useCounterContract';
 import sunnyLogo from './assets/sunny_logo.png';
+import '@twa-dev/sdk';
 
 function App() {
   const { connected } = useTonConnect();
